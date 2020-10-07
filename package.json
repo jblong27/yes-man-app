@@ -13,9 +13,15 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"@reduxjs/toolkit": "^1.4.0",
 		"concurrently": "^5.3.0",
 		"express": "^4.17.1",
-		"nodemon": "^2.0.4"
+		"nodemon": "^2.0.4",
+		"react-redux": "^7.2.1",
+		"redux-saga": "^1.1.3"
 	},
-	"c": "proxy"
+	"c": "proxy",
+	"devDependencies": {
+		"redux-devtools": "^3.7.0"
+	}
 }
