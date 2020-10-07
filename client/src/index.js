@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 
 import {AppContainer} from 'react-hot-loader';
 import {Provider} from 'react-redux';
-import {initialState} from './store'
+import {initialState} from './store/config'
 
 const store = configureStore(initialState);
 
