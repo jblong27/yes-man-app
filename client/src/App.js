@@ -24,15 +24,14 @@ class App extends Component {
 
     this.handleanswerSelected = this.handleanswerSelected.bind(this);
   }
-  return (
+  // // return (
 
-    <div className="App">
-      <div className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <h2>Yes Man! Questionnaire</h2>
-      </div>
-      <Question content="Hello world" />
-    </div>
-  );
+  // //   <div className="App">
+  // //     <div className="App-header">
+  // //       <h2>Yes Man! Questionnaire</h2>
+  // //     </div>
+  // //     <Question content="Hello world" />
+  // //   </div>
+  // );
 }
 export default App;

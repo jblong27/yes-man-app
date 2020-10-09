@@ -1,6 +1,6 @@
 var questionnaireQuestions = [
   {
-    question: "Would you rather stay inside or go outside today?",
+    questionText: "Would you rather stay inside or go outside today?",
     answers: [
       {
         id: "inside",
@@ -9,7 +9,20 @@ var questionnaireQuestions = [
       {
         id: "outside",
         content: "Outside!"
+        }
+    ]
+  },
+  {
+    questionText: "Are you flying solo or feeling social?",
+    answers: [
+      {
+        id: "solo",
+        content: "Solo, please."
       },
+      {
+        id: "social",
+        content: "Feeling social today."
+      }
     ]
   }
 ]
