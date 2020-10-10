@@ -20,7 +20,28 @@ class App extends Component {
   
   componentDidMount() {
     const shuffledAnswerOptions = questionnaireQuestions.map((question) => this.shuffleArray(question.answers));
+
+    this.setState({
+      question: questionnaireQuestions[0].question,
+      answerOptions: shuffledAnswerOptions[0]
+    });
   }
+  // function to shuffle the array of answers just to spice things up
+  shuffleArray(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex;
+
+    while (0 !== currentIndex) {
+
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+  };
 
     this.handleanswerSelected = this.handleanswerSelected.bind(this);
   }
