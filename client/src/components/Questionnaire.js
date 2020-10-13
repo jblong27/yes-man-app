@@ -19,6 +19,7 @@ function Questionnaire(props) {
     );
   }
   return (
+    // wrap the questionnaire element in the CSSTransitionGroup element to animate it
     <CSSTransitionGroup
       className="container"
       component="div"
