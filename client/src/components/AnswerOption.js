@@ -14,11 +14,14 @@ function AnswerOption(props) {
         disabled={props.answer}
         onChange={props.onAnswerSelected}
       />
+      <label classNam="radioCustomLabel" htmlFor={props.answerType}>
+        {props.answerContent}
+      </label>
     </li>
   );
 }
 
-AnswerOption.PropTypes = {
+AnswerOption.propTypes = {
   answerType: PropTypes.string.isRequired,
   answerContent: PropTypes.string.isRequired,
   answer: PropTypes.string.isRequired,

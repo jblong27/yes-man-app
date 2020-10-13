@@ -1,69 +1,69 @@
 var questionnaireQuestions = [
   {
-    questionText: "Would you rather stay inside or go outside today?",
+    question: "Would you rather stay inside or go outside today?",
     answers: [
       {
-        id: "inside",
+        type: "inside",
         content: "Inside!"
       },
       {
-        id: "outside",
+        type: "outside",
         content: "Outside!"
         }
     ]
   },
   {
-    questionText: "Are you flying solo or feeling social?",
+    question: "Are you flying solo or feeling social?",
     answers: [
       {
-        id: "solo",
+        type: "solo",
         content: "Solo, please."
       },
       {
-        id: "social",
+        type: "social",
         content: "Feeling social today."
       }
     ]
   },
   {
-    questionText: "Do you want to move your body, or just chill?",
+    question: "Do you want to move your body, or just chill?",
     answers: [
       {
-        id: "fitness",
+        type: "fitness",
         content: "Yeah, let's get moving!"
       },
       {
-        id: "leisure",
+        type: "leisure",
         content: "I wanna chill."
       }
     ]
   },
   {
-    questionText: "Are you in the mood to learn something new?",
+    question: "Are you in the mood to learn something new?",
     answers: [
       {
-        id: "learning",
+        type: "learning",
         content: "Sure!"
       },
       {
-        id: "entertainment",
+        type: "entertainment",
         content: "Nope."
       }
     ]
   },
   {
-    questionText: "How do you feel about spending money?",
+    question: "How do you feel about spending money?",
     answers: [
       {
-        id: "customer",
+        type: "customer",
         content: "I don't mind spending a lil' sum'sum'"
       },
       {
-        id: "broke",
+        type: "broke",
         content: "Money, what money?"
       }
     ]
   }
-]
+];
 
 export default questionnaireQuestions;

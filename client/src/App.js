@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Question from './components/Question';
 import Questionnaire from './components/Questionnaire';
 import Result from './components/Result';
 import questionnaireQuestions from './api/questionnaireQuestions';
@@ -73,7 +72,7 @@ class App extends Component {
       counter: counter,
       questionId: questionId,
       question: questionnaireQuestions[counter].question,
-      answerOptions: quizQuestions[counter].answers,
+      answerOptions: questionnaireQuestions[counter].answers,
       answer: ''
     });
   }

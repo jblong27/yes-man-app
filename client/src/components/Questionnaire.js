@@ -30,10 +30,7 @@ function Questionnaire(props) {
       transitionAppearTimeout={500}
     >
       <div className="quiz">
-        <QuestionCount
-          counter={props.questionId}
-          total={props.questionTotal}
-          />
+        <QuestionCount counter={props.questionId} total={props.questionTotal} />
         <Question content={props.question} />
         <ul className="answerOptions">
           {props.answerOptions.map(renderAnswerOptions)}
