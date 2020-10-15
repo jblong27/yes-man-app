@@ -1,16 +1,16 @@
 const router = require("express").Router();
 const userChoiceController = require("../../controllers/userChoiceController");
 
-// Matches with "/api/books"
+// Matches with "/api/choices"
 router.route("/")
   .get(userChoiceController.findAll)
-  .post(userChoiceController.create);
+  .post(userChoiceController.create)
 
-// Matches with "/api/books/:id"
+// Matches with "/api/userInput/:id"
 router
   .route("/:id")
   .get(userChoiceController.findById)
   .put(userChoiceController.update)
-  .delete(userChoiceController.remove);
+  .delete(userChoiceController.remove)
 
 module.exports = router;

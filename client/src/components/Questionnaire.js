@@ -50,4 +50,4 @@ Questionnaire.propTypes = {
   onAnswerSelected: PropTypes.func.isRequired
 };
 
-export default Questionnaire
+export default Questionnaire;

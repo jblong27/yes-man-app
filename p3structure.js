@@ -4,7 +4,7 @@ const questions = [
       parent: null,
       text: 'Inside/outside?',
       answers: [
-          { id: 'inside', text: 'Inside', followUpQuestion: 2 }
+          { id: 'inside', text: 'Inside', followUpQuestion: 2 },
           { id: 'outside', text: 'Outside', followUpQuestion: 3 }
       ]
   },
@@ -13,7 +13,7 @@ const questions = [
       parent: 1,
       text: 'Alone/Together?',
       answers: [
-          { id: 'alone', text: 'Alone', followUpQuestion: 4 }
+          { id: 'alone', text: 'Alone', followUpQuestion: 4 },
           { id: 'together', text: 'Together' }
       ]
   },
