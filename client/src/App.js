@@ -176,16 +176,18 @@ class App extends Component {
     else {
       if (UserStore.isLoggedIn) {
         return (
-          <div className="app">
-            <div className="container">
-              Welcome {UserStore.username}
-
-              <SubmitButton
-                text={'Log out'}
-                disabled={false}
-                onClick={ () => this.doLogout() }
-              />
+          <div className="App">
+            <div className="App-header">
+              <h2>Yes Man! Questionnaire</h2>
             </div>
+            {this.state.result ? this.renderResult() : this.renderQuestionnaire()}
+            <br />
+            <br />
+            <SubmitButton
+              text={'Log out'}
+              disabled={false}
+              onClick={ () => this.doLogout() }
+            />
           </div>
         );
       }
@@ -199,15 +201,6 @@ class App extends Component {
         </div>
       )
     }
-    return (
-  
-      <div className="App">
-        <div className="App-header">
-          <h2>Yes Man! Questionnaire</h2>
-        </div>
-        {this.state.result ? this.renderResult() : this.renderQuestionnaire()}
-      </div>
-    );
   }
 }
 
