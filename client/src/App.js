@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
+import { observer } from 'mobx-react';
 import Questionnaire from './components/Questionnaire';
 import Result from './components/Result';
 import questionnaireQuestions from './api/questionnaireQuestions';
+import UserStore from './stores/UserStore';
+import LoginForm from './components/LoginForm';
+import SubmitButton from './components/SubmitButton';
 import  './stylesheets/App.css';
 import './api/questionnaireQuestions';
 
@@ -19,7 +23,34 @@ class App extends Component {
     };
   }
   
-  componentDidMount() {
+  async componentDidMount() {
+    try {
+      let res = await fetch('/isLoggedIn', {
+        method: 'post',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        }
+      });
+
+      let result = await res.json();
+
+      if (result && result.success) {
+        UserStore.loading = false;
+        UserStore.isLoggedIn = true;
+        UserStore.username = result.username;
+      }
+
+      else {
+        UserStore.loading = false;
+        UserStore.isLoggedIn = false;
+      }
+    }
+    catch(err) {
+      UserStore.loading = false;
+      UserStore.isLoggedIn = false;
+    }
+  
     const shuffledAnswerOptions = questionnaireQuestions.map((question) => this.shuffleArray(question.answers));
 
     this.setState({
@@ -27,6 +58,26 @@ class App extends Component {
       answerOptions: shuffledAnswerOptions[0]
     });
     this.handleanswerSelected = this.handleanswerSelected.bind(this);
+  }
+  async doLogout() {
+    try {
+      let res = await fetch('/logout', {
+        method: 'post',
+        headers: {
+          'Accept': 'application/json',
+          'Content-type': 'application/json'
+        }
+      });
+      let result = await res.json();
+
+      if (result && result.success) {
+        UserStore.isLoggedIn = false;
+        UserStore.username = '';
+      }
+    }
+    catch(err) {
+      console.log(err);
+    }
   }
   // function to shuffle the array of answers just to spice things up
   shuffleArray(array) {
@@ -112,7 +163,42 @@ class App extends Component {
     return <Result questionnaireResult={this.state.result} />;
   }
   render() {
+    if (UserStore.loading) {
+      return (
+        <div className="app">
+          <div className="container">
+            Loading, please wait..
+          </div>
+        </div>
+      );
+    }
 
+    else {
+      if (UserStore.isLoggedIn) {
+        return (
+          <div className="app">
+            <div className="container">
+              Welcome {UserStore.username}
+
+              <SubmitButton
+                text={'Log out'}
+                disabled={false}
+                onClick={ () => this.doLogout() }
+              />
+            </div>
+          </div>
+        );
+      }
+
+      return (
+        <div className="app">
+          <div className="container">
+              
+            <LoginForm />
+          </div>
+        </div>
+      )
+    }
     return (
   
       <div className="App">
@@ -124,4 +210,5 @@ class App extends Component {
     );
   }
 }
-export default App;
+
+export default observer(App);
