@@ -90,53 +90,53 @@ var questionnaireQuestions = [
     ]
   },
   {
-    question: "",
+    question: "Your car just experienced an electrical failure, what do you do?",
     answers: [
       {
         type: "fitness",
-        content: ""
+        content: "I try to roll the vehicle further down the road to a safe location. I get out and push the car if necessary. Once I’m in a safe place, I call for assistance. "
       },
       {
         type: "learning",
-        content: ""
+        content: "I immediately pull the vehicle over and call a tow truck.  Then, while I wait for the driver I Google how to fix the issue."
       },
       {
         type: "leisure",
-        content: ""
+        content: "I immediately pull over and call a tow truck. While I wait for the driver, I finish watching a YouTube video from earlier."
       },
     ]
   },
   {
-    question: "",
+    question: "Which most accurately depicts your ideal beach vacation?",
     answers: [
       {
         type: "fitness",
-        content: ""
+        content: "A late evening sunset, with slowmo-Baywatch-style beach jogging."
       },
       {
         type: "learning",
-        content: ""
+        content: "Umbrella over-head, my feet in the sand with a book in my hand."
       },
       {
         type: "leisure",
-        content: ""
+        content: "Sunbathing, butt in the sand, cold beer in my hand."
       },
     ]
   },
   {
-    question: "",
+    question: "What’s most important to you?",
     answers: [
       {
         type: "fitness",
-        content: ""
+        content: "My health."
       },
       {
         type: "learning",
-        content: ""
+        content: "The community around me."
       },
       {
         type: "leisure",
-        content: ""
+        content: "My job."
       },
     ]
   },
