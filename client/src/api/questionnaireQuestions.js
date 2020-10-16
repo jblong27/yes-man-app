@@ -39,6 +39,159 @@ var questionnaireQuestions = [
     ]
   },
   {
+    question: "What’s most important to you, today?",
+    answers: [
+      {
+        type: "fitness",
+        content: "Carpe-ing the diem."
+      },
+      {
+        type: "learning",
+        content: "Profite de la vie."
+      },
+      {
+        type: "leisure",
+        content: "Parlaying the DM’s."
+      },
+    ]
+  },
+  {
+    question: "Which one would you prefer?",
+    answers: [
+      {
+        type: "fitness",
+        content: "Eating something fresh and healthy."
+      },
+      {
+        type: "learning",
+        content: "Crafting a new meal from scratch."
+      },
+      {
+        type: "leisure",
+        content: "Something quick, tasty, and easy to prepare."
+      },
+    ]
+  },
+  {
+    question: "Which one would you pick?",
+    answers: [
+      {
+        type: "fitness",
+        content: "+ 10 Strength"
+      },
+      {
+        type: "learning",
+        content: "+ 10 Intellect"
+      },
+      {
+        type: "leisure",
+        content: "+ 10 Charm"
+      },
+    ]
+  },
+  {
+    question: "",
+    answers: [
+      {
+        type: "fitness",
+        content: ""
+      },
+      {
+        type: "learning",
+        content: ""
+      },
+      {
+        type: "leisure",
+        content: ""
+      },
+    ]
+  },
+  {
+    question: "",
+    answers: [
+      {
+        type: "fitness",
+        content: ""
+      },
+      {
+        type: "learning",
+        content: ""
+      },
+      {
+        type: "leisure",
+        content: ""
+      },
+    ]
+  },
+  {
+    question: "",
+    answers: [
+      {
+        type: "fitness",
+        content: ""
+      },
+      {
+        type: "learning",
+        content: ""
+      },
+      {
+        type: "leisure",
+        content: ""
+      },
+    ]
+  },
+  {
+    question: "",
+    answers: [
+      {
+        type: "fitness",
+        content: ""
+      },
+      {
+        type: "learning",
+        content: ""
+      },
+      {
+        type: "leisure",
+        content: ""
+      },
+    ]
+  },
+  {
+    question: "",
+    answers: [
+      {
+        type: "fitness",
+        content: ""
+      },
+      {
+        type: "learning",
+        content: ""
+      },
+      {
+        type: "leisure",
+        content: ""
+      },
+    ]
+  },
+  {
+    question: "",
+    answers: [
+      {
+        type: "fitness",
+        content: ""
+      },
+      {
+        type: "learning",
+        content: ""
+      },
+      {
+        type: "leisure",
+        content: ""
+      },
+    ]
+  },
+  {
     question: "",
     answers: [
       {
