@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { CSSTransitionGroup } from 'react-transition-group';
-
+import { Link } from 'react-router-dom';
 
 function Result(props) {
   return (
@@ -16,6 +16,10 @@ function Result(props) {
       >  
         <div className="result">
           Here's what we think you should do:
+
+        </div>
+        <div>
+          <Link to="/" className="btn btn-primary w-100 mt-3">Back to Profile</Link>
         </div>
     </CSSTransitionGroup>
   );
