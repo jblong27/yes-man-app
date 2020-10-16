@@ -6,7 +6,15 @@ class Router {
     this.login(app, db);
     this.logout(app, db);
     this.isLoggedIn(app, db);
+    //this.registration(app, db);
   }
+
+  registration(app, db) {
+
+    
+  }
+
+
 
   login(app, db) {
 

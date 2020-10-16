@@ -13,57 +13,48 @@ var questionnaireQuestions = [
     ]
   },
   {
-    question: "Are you flying solo or feeling social?",
+    question: "Going social or flying solo?",
     answers: [
-      {
-        type: "solo",
-        content: "Solo, please."
-      },
       {
         type: "social",
         content: "Feeling social today."
+      },
+      {
+        type: "solo",
+        content: "Solo, please."
       }
     ]
   },
   {
-    question: "Do you want to move your body, or just chill?",
+    question: "Do you want to spend money?",
     answers: [
       {
-        type: "fitness",
-        content: "Yeah, let's get moving!"
+        type: "$",
+        content: "Sure."
       },
       {
-        type: "leisure",
-        content: "I wanna chill."
-      }
-    ]
-  },
-  {
-    question: "Are you in the mood to learn something new?",
-    answers: [
-      {
-        type: "learning",
-        content: "Sure!"
-      },
-      {
-        type: "entertainment",
-        content: "Nope."
-      }
-    ]
-  },
-  {
-    question: "How do you feel about spending money?",
-    answers: [
-      {
-        type: "customer",
-        content: "I don't mind spending a lil' sum'sum'"
-      },
-      {
-        type: "broke",
+        type: "!$",
         content: "Money, what money?"
       }
     ]
-  }
+  },
+  {
+    question: "",
+    answers: [
+      {
+        type: "fitness",
+        content: ""
+      },
+      {
+        type: "learning",
+        content: ""
+      },
+      {
+        type: "leisure",
+        content: ""
+      },
+    ]
+  },
 ];
 
 export default questionnaireQuestions;
