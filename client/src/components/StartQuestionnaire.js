@@ -18,7 +18,7 @@ class StartQuestionnaire extends Component {
     };
     this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
   }
-
+  // populate our app's state
   componentDidMount() {
     const shuffledAnswerOptions = questionnaireQuestions.map(question =>
       this.shuffleArray(question.answers)
