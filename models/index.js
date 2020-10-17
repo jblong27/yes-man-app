@@ -1,7 +1,4 @@
 module.exports = {
-    Choice: require("./choice")
+    Choice: require("./choice"),
+    UserInput: require("./userInput")
   };
-
-module.exports = {
-  UserInput: require("./userInput")
-};

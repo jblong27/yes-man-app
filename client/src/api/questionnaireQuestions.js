@@ -29,11 +29,11 @@ var questionnaireQuestions = [
     question: "Do you want to spend money?",
     answers: [
       {
-        type: "$",
+        type: "money",
         content: "Sure."
       },
       {
-        type: "!$",
+        type: "noMoney",
         content: "Money, what money?"
       }
     ]
