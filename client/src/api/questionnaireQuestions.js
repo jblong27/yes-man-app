@@ -141,70 +141,70 @@ var questionnaireQuestions = [
     ]
   },
   {
-    question: "",
+    question: "What mirrors your mood most closely?",
     answers: [
       {
         type: "fitness",
-        content: ""
+        content: "Spontaneous."
       },
       {
         type: "learning",
-        content: ""
+        content: "Curious."
       },
       {
         type: "leisure",
-        content: ""
+        content: "Chill."
       },
     ]
   },
   {
-    question: "",
+    question: "What is the greatest obstacle you face right now?",
     answers: [
       {
         type: "fitness",
-        content: ""
+        content: "The fear of failure."
       },
       {
         type: "learning",
-        content: ""
+        content: "The fear of the unknown."
       },
       {
         type: "leisure",
-        content: ""
+        content: "The fear of being misunderstood."
       },
     ]
   },
   {
-    question: "",
+    question: "What would interest you most?",
     answers: [
       {
         type: "fitness",
-        content: ""
+        content: "Playing sports."
       },
       {
         type: "learning",
-        content: ""
+        content: "Solving puzzles."
       },
       {
         type: "leisure",
-        content: ""
+        content: "Taking shots."
       },
     ]
   },
   {
-    question: "",
+    question: "Pick a number - any number!",
     answers: [
       {
         type: "fitness",
-        content: ""
+        content: "30"
       },
       {
         type: "learning",
-        content: ""
+        content: "42"
       },
       {
         type: "leisure",
-        content: ""
+        content: "420"
       },
     ]
   },
