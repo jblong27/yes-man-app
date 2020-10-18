@@ -221,7 +221,7 @@ const activitySeed = [
   },
   {
     author: "Jared Varnum",
-    activity: "Follow a cooking subreddit!",
+    activity: "Get on Reddit and follow a cooking subreddit!",
     approved: true,
     class: "insideSoloNoMoneyLearning",
     date: new Date(Date.now())
@@ -331,6 +331,538 @@ const activitySeed = [
     class: "insideSocialMoneyLearning",
     date: new Date(Date.now())
   },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "insideSocialNoMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "insideSocialNoMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "insideSocialNoMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "insideSocialNoMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "insideSocialNoMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "insideSocialNoMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "insideSocialNoMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "insideSocialNoMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "insideSocialNoMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "insideSocialNoMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "insideSocialNoMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "insideSocialNoMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "insideSocialNoMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "insideSocialNoMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "insideSocialNoMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloMoneyLeisure",
+    date: new Date(Date.now())
+  },
+
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloMoneyLeisure",
+    date: new Date(Date.now())
+  },
+
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloMoneyLeisure",
+    date: new Date(Date.now())
+  },
+
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloNoMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloNoMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloNoMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloNoMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloNoMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloNoMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloNoMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloNoMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloNoMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloNoMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloNoMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloNoMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloNoMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloNoMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloNoMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialMoneyLeisure",
+    date: new Date(Date.now())
+  },
+
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialMoneyLeisure",
+    date: new Date(Date.now())
+  },
+
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialMoneyLeisure",
+    date: new Date(Date.now())
+  },
+
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialNoMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialNoMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialNoMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialNoMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialNoMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialNoMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialNoMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialNoMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialNoMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialNoMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialNoMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialNoMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialNoMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialNoMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSocialNoMoneyLearning",
+    date: new Date(Date.now())
+  },
+  
 ];
 
 db.Activity
