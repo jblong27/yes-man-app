@@ -16,7 +16,7 @@ function Result(props) {
       transitionAppearTimeout={500}
       >  
         <div className="result">
-          Here's what we think you should do:
+          Say Yes to:
 
         </div>
         <br/>
