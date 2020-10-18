@@ -109,119 +109,119 @@ const activitySeed = [
   },
   {
     author: "Jared Varnum",
-    activity: "Follow a content creator on YouTube who covers something you find interesting and consider support them on Patreon!",
+    activity: "Follow a content creator on YouTube and support them on Patreon!",
     approved: true,
     class: "insideSoloMoneyLearning",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Stretch!",
     approved: true,
     class: "InsideSoloNoMoneyFitness",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Make a new playlist, and dance to it!",
     approved: true,
     class: "InsideSoloNoMoneyFitness",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Download a free workout app!",
     approved: true,
     class: "InsideSoloNoMoneyFitness",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Underwater basket weaving! Jk, do some full body calisthenics!",
     approved: true,
     class: "InsideSoloNoMoneyFitness",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Try to open a 16oz bottle of Dr. Pepper, but don't drink it! That's will power!",
     approved: true,
     class: "InsideSoloNoMoneyFitness",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Meditate.",
     approved: true,
     class: "InsideSoloNoMoneyLeisure",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Watch Netflix and actually chill...",
     approved: true,
     class: "InsideSoloNoMoneyLeisure",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Write down your thoughts! Journal where you're at in life, or write a poem or song about how you feel.",
     approved: true,
     class: "InsideSoloNoMoneyLeisure",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Contemplate the significance of the Number 42.",
     approved: true,
     class: "InsideSoloNoMoneyLeisure",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Go to the library and get a new fictional book!",
     approved: true,
     class: "InsideSoloNoMoneyLeisure",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Make some delicious food and kick back.",
     approved: true,
     class: "InsideSoloNoMoneyLeisure",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Research random facts about the United States. Trivia night, here we come!",
     approved: true,
     class: "insideSoloNoMoneyLearning",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Learn about investing.",
     approved: true,
     class: "insideSoloNoMoneyLearning",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Go to your local library and search the non-fiction section!",
     approved: true,
     class: "insideSoloNoMoneyLearning",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Research Tesla.",
     approved: true,
     class: "insideSoloNoMoneyLearning",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Follow a cooking subreddit!",
     approved: true,
     class: "insideSoloNoMoneyLearning",
     date: new Date(Date.now())
