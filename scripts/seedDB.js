@@ -228,77 +228,91 @@ const activitySeed = [
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Go iceskating with friends, or make new ones!",
     approved: true,
     class: "insideSocialMoneyFitness",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Go indoor rock climbing with friends!",
     approved: true,
     class: "insideSocialMoneyFitness",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Sign up for some virtual dance lessons!",
     approved: true,
     class: "insideSocialMoneyFitness",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Take a friend to the gym - Or make new friends there!",
     approved: true,
     class: "insideSocialMoneyFitness",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Go to a local YMCA, and go swimming! ",
     approved: true,
     class: "insideSocialMoneyFitness",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Participate in a virtual escape room with friends!",
     approved: true,
     class: "insideSocialMoneyLeisure",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Go to the local mall and buy yourself something nice!",
     approved: true,
     class: "insideSocialMoneyLeisure",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Go with friends and check out a local bar that you've never been to before",
     approved: true,
     class: "insideSocialMoneyLeisure",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Hungry? Go check out a local restaurant in town!",
     approved: true,
     class: "insideSocialMoneyLeisure",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Take the local transit, and do some good ole fashioned people watching!",
     approved: true,
     class: "insideSocialMoneyLeisure",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Take an online computer coding course!",
+    approved: true,
+    class: "insideSocialMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "Go on to Amazon and buy a book related to something you would like to learn more about!",
+    approved: true,
+    class: "insideSocialMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "Research how to build something that would be a nice addition to your home. Step  1, buy the materials to make two of these items. Step 2, build the first one and gift to a friend. Step 3, build and keep the second one you make for your own home.",
     approved: true,
     class: "insideSocialMoneyLearning",
     date: new Date(Date.now())
@@ -319,21 +333,7 @@ const activitySeed = [
   },
   {
     author: "Jared Varnum",
-    activity: "",
-    approved: true,
-    class: "insideSocialMoneyLearning",
-    date: new Date(Date.now())
-  },
-  {
-    author: "Jared Varnum",
-    activity: "",
-    approved: true,
-    class: "insideSocialMoneyLearning",
-    date: new Date(Date.now())
-  },
-  {
-    author: "Jared Varnum",
-    activity: "",
+    activity: "Play a game of twister! But hey, don't get your hopes up.",
     approved: true,
     class: "insideSocialNoMoneyFitness",
     date: new Date(Date.now())
@@ -368,7 +368,7 @@ const activitySeed = [
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Blow the dust off of the old board games, and invite some friends over for a game night!",
     approved: true,
     class: "insideSocialNoMoneyLeisure",
     date: new Date(Date.now())
@@ -403,7 +403,7 @@ const activitySeed = [
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Play a game of truth or dare with a friend! You may learn more than you wish you had!",
     approved: true,
     class: "insideSocialNoMoneyLearning",
     date: new Date(Date.now())
@@ -438,37 +438,51 @@ const activitySeed = [
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Go skydiving!!!",
     approved: true,
     class: "outsideSoloMoneyFitness",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Go bungee jumping!!!!!",
     approved: true,
     class: "outsideSoloMoneyFitness",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Visit a local park and go for a walk!",
     approved: true,
     class: "outsideSoloMoneyFitness",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Go mountain biking!",
     approved: true,
     class: "outsideSoloMoneyFitness",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Go Paddleboarding!",
     approved: true,
     class: "outsideSoloMoneyFitness",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "Take a roadtrip! Pet passengers only!",
+    approved: true,
+    class: "outsideSoloMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "",
+    approved: true,
+    class: "outsideSoloMoneyLeisure",
     date: new Date(Date.now())
   },
   {
@@ -485,15 +499,6 @@ const activitySeed = [
     class: "outsideSoloMoneyLeisure",
     date: new Date(Date.now())
   },
-
-  {
-    author: "Jared Varnum",
-    activity: "",
-    approved: true,
-    class: "outsideSoloMoneyLeisure",
-    date: new Date(Date.now())
-  },
-
   {
     author: "Jared Varnum",
     activity: "",
@@ -503,15 +508,7 @@ const activitySeed = [
   },
   {
     author: "Jared Varnum",
-    activity: "",
-    approved: true,
-    class: "outsideSoloMoneyLeisure",
-    date: new Date(Date.now())
-  },
-
-  {
-    author: "Jared Varnum",
-    activity: "",
+    activity: "Go horseback riding!",
     approved: true,
     class: "outsideSoloMoneyLearning",
     date: new Date(Date.now())
@@ -546,7 +543,7 @@ const activitySeed = [
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Go hiking!",
     approved: true,
     class: "outsideSoloNoMoneyFitness",
     date: new Date(Date.now())
@@ -581,7 +578,7 @@ const activitySeed = [
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Test drive a Tesla!",
     approved: true,
     class: "outsideSoloNoMoneyLeisure",
     date: new Date(Date.now())
@@ -616,7 +613,14 @@ const activitySeed = [
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Observe the stars, and learn more about the constellations",
+    approved: true,
+    class: "outsideSoloNoMoneyLearning",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "Build something only utilizing raw materials around you, and up your survival game +5.",
     approved: true,
     class: "outsideSoloNoMoneyLearning",
     date: new Date(Date.now())
@@ -644,14 +648,14 @@ const activitySeed = [
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Join a local adults sports league.",
     approved: true,
-    class: "outsideSoloNoMoneyLearning",
+    class: "outsideSocialMoneyFitness",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Do a Pedal Tavern! Jk, don't you dare! Take a biking class instead, and make new friends!",
     approved: true,
     class: "outsideSocialMoneyFitness",
     date: new Date(Date.now())
@@ -679,34 +683,25 @@ const activitySeed = [
   },
   {
     author: "Jared Varnum",
-    activity: "",
-    approved: true,
-    class: "outsideSocialMoneyFitness",
-    date: new Date(Date.now())
-  },
-  {
-    author: "Jared Varnum",
-    activity: "",
+    activity: "Take a city tour on some Segways!",
     approved: true,
     class: "outsideSocialMoneyLeisure",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Go with friends to a local concert!",
     approved: true,
     class: "outsideSocialMoneyLeisure",
     date: new Date(Date.now())
   },
-
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Go with friends to a local festival!",
     approved: true,
     class: "outsideSocialMoneyLeisure",
     date: new Date(Date.now())
   },
-
   {
     author: "Jared Varnum",
     activity: "",
@@ -721,17 +716,16 @@ const activitySeed = [
     class: "outsideSocialMoneyLeisure",
     date: new Date(Date.now())
   },
-
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Take a historical tour!",
     approved: true,
     class: "outsideSocialMoneyLearning",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Go with friends to an outdoor museum!",
     approved: true,
     class: "outsideSocialMoneyLearning",
     date: new Date(Date.now())
@@ -794,7 +788,14 @@ const activitySeed = [
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Go on a picnic with friends!",
+    approved: true,
+    class: "outsideSocialNoMoneyLeisure",
+    date: new Date(Date.now())
+  },
+  {
+    author: "Jared Varnum",
+    activity: "Talk some code with friends outside a local coffee shop!",
     approved: true,
     class: "outsideSocialNoMoneyLeisure",
     date: new Date(Date.now())
@@ -822,14 +823,7 @@ const activitySeed = [
   },
   {
     author: "Jared Varnum",
-    activity: "",
-    approved: true,
-    class: "outsideSocialNoMoneyLeisure",
-    date: new Date(Date.now())
-  },
-  {
-    author: "Jared Varnum",
-    activity: "",
+    activity: "Learn some coding, while talking with friends outside a local coffee shop!",
     approved: true,
     class: "outsideSocialNoMoneyLearning",
     date: new Date(Date.now())
@@ -861,8 +855,7 @@ const activitySeed = [
     approved: true,
     class: "outsideSocialNoMoneyLearning",
     date: new Date(Date.now())
-  },
-  
+  }
 ];
 
 db.Activity
