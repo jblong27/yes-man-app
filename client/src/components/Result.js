@@ -23,13 +23,13 @@ function Result(props) {
         <br/>
         <div> If you have something else in mind, let us know what it is here:
           <InputGroup size="mb-3">
-            <InputGroup.Prepend>
-              <InputGroup.Text id="inputGroup-sizing-default">Default</InputGroup.Text>
-            </InputGroup.Prepend>
             <FormControl
               aria-label="Default"
               aria-describedby="inputGroup-sizing-default"
             />
+            <InputGroup.Append>
+              <InputGroup.Text id="inputGroup-sizing-default">Submit</InputGroup.Text>
+            </InputGroup.Append>
           </InputGroup>
         </div>
         <div>
