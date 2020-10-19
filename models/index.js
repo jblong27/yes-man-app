@@ -1,7 +1,4 @@
 module.exports = {
-    Choice: require("./choice")
+    Activity: require("./activities"),
+    UserInput: require("./userInput")
   };
-
-module.exports = {
-  UserInput: require("./userInput")
-};
