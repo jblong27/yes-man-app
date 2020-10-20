@@ -9,41 +9,7 @@ mongoose.connect(
 );
 
 const activitySeed = [
-  {
-    author: "Jared Varnum",
-    activity: "Go to a local gym!",
-    approved: true,
-    class: "insideSoloMoneyFitness",
-    date: new Date(Date.now())
-  },
-  {
-    author: "Jared Varnum",
-    activity: "Everytime Wayne says Google it, do 5 push-ups. Everytime Tim makes a movie reference, do 10 sit-ups!",
-    approved: true,
-    class: "insideSoloMoneyFitness",
-    date: new Date(Date.now())
-  },
-  {
-    author: "Jared Varnum",
-    activity: "Git' sum' P90X!",
-    approved: true,
-    class: "insideSoloMoneyFitness",
-    date: new Date(Date.now())
-  },
-  {
-    author: "Jared Varnum",
-    activity: "Sign up for a Yoga class!",
-    approved: true,
-    class: "insideSoloMoneyFitness",
-    date: new Date(Date.now())
-  },
-  {
-    author: "Jared Varnum",
-    activity: "Go indoor rock climbing!",
-    approved: true,
-    class: "insideSoloMoneyFitness",
-    date: new Date(Date.now())
-  },
+  ,
   {
     author: "Jared Varnum",
     activity: "Watch a new movie!",
@@ -319,14 +285,14 @@ const activitySeed = [
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Join a virtual toastmasters!",
     approved: true,
     class: "insideSocialMoneyLearning",
     date: new Date(Date.now())
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Join an investing channel on Discord.",
     approved: true,
     class: "insideSocialMoneyLearning",
     date: new Date(Date.now())
@@ -340,7 +306,7 @@ const activitySeed = [
   },
   {
     author: "Jared Varnum",
-    activity: "",
+    activity: "Make love!",
     approved: true,
     class: "insideSocialNoMoneyFitness",
     date: new Date(Date.now())
