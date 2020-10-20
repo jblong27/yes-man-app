@@ -20,7 +20,7 @@ function Result(props) {
     event.preventDefault();
     if (inputObject) {
       API.saveUserInput({
-        author: 'test',
+        author: inputObject.email,
         activity: inputObject.activity,
         class: 'test'
       })
@@ -51,6 +51,9 @@ function Result(props) {
           <Form onSubmit={handleInputSubmit}>
             <Form.Group id="userInput">
               <Form.Control type="text" onChange={handleInputChange} name="activity"/>
+            </Form.Group>
+            <Form.Group id="email">
+              <Form.Control placeholder="Email" onChange={handleInputChange} type="email" name="email" required />
             </Form.Group>
             <Button disabled={!(inputObject.activity)} onClick={handleInputSubmit} className="w-100" type="submit">Submit</Button>
           </Form>   

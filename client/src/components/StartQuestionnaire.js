@@ -99,7 +99,7 @@ setResults (result) {
   if (result.length === 1) {
     this.setState({ result: result[0] });
   } else {
-    this.setState({ result: 'Undetermined' })
+    this.setState({ result: 'Take the car for a drive' })
   }
 }
 
