@@ -4,6 +4,6 @@ const promptInputRoutes = require("./promptInput");
 
 // choices and prompt input routes
 router.use("/choices", choicesRoutes);
-router.use("/promptInput", promptInputRoutes)
+router.use("/promptInput", promptInputRoutes);
 
 module.exports = router;
