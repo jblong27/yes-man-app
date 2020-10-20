@@ -7,8 +7,6 @@ mongoose.connect(
   process.env.MONGODB_URI ||
   "mongodb://localhost/yes-man-app"
 
-  
-
 db.Activity
   .remove({})
   .then(() => db.Activity.collection.insertMany(activitySeed))
