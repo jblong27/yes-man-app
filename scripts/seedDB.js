@@ -10,76 +10,8 @@ mongoose.connect(
 
 const activitySeed = [
   ,
-  {
-    author: "Jared Varnum",
-    activity: "Watch a new movie!",
-    approved: true,
-    class: "insideSoloMoneyLeisure",
-    date: new Date(Date.now())
-  },
-  {
-    author: "Jared Varnum",
-    activity: "Play a new mobile game!",
-    approved: true,
-    class: "insideSoloMoneyLeisure",
-    date: new Date(Date.now())
-  },
-  {
-    author: "Jared Varnum",
-    activity: "Go on Amazon and treat yo'self!",
-    approved: true,
-    class: "insideSoloMoneyLeisure",
-    date: new Date(Date.now())
-  },
-  {
-    author: "Jared Varnum",
-    activity: "Read a fictional book!",
-    approved: true,
-    class: "insideSoloMoneyLeisure",
-    date: new Date(Date.now())
-  },
-  {
-    author: "Jared Varnum",
-    activity: "Do a virtual escape room!",
-    approved: true,
-    class: "insideSoloMoneyLeisure",
-    date: new Date(Date.now())
-  },
-  {
-    author: "Jared Varnum",
-    activity: "Read a non-fictional book",
-    approved: true,
-    class: "insideSoloMoneyLearning",
-    date: new Date(Date.now())
-  },
-  {
-    author: "Jared Varnum",
-    activity: "Go to a local museum!",
-    approved: true,
-    class: "insideSoloMoneyLearning",
-    date: new Date(Date.now())
-  },
-  {
-    author: "Jared Varnum",
-    activity: "Pick out any instrument and start learning it!",
-    approved: true,
-    class: "insideSoloMoneyLearning",
-    date: new Date(Date.now())
-  },
-  {
-    author: "Jared Varnum",
-    activity: "Sign up for a night class!",
-    approved: true,
-    class: "insideSoloMoneyLearning",
-    date: new Date(Date.now())
-  },
-  {
-    author: "Jared Varnum",
-    activity: "Follow a content creator on YouTube and support them on Patreon!",
-    approved: true,
-    class: "insideSoloMoneyLearning",
-    date: new Date(Date.now())
-  },
+  ,
+  ,
   {
     author: "Jared Varnum",
     activity: "Stretch!",
