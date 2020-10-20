@@ -46,7 +46,7 @@ function Result(props) {
         <br/>
         <br/>
         <div> If you have something else in mind, let us know what it is here: 
-        <Form onSubmit={handleInputSubmit}>
+          <Form onSubmit={handleInputSubmit}>
             <Form.Group id="userInput">
               <Form.Control type="text" onChange={handleInputChange} name="activity"/>
             </Form.Group>
