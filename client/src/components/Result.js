@@ -2,13 +2,32 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { CSSTransitionGroup } from 'react-transition-group';
 import { Link } from 'react-router-dom';
-import { useAuth } from '../contexts/AuthContext';
 import { Form, Button } from 'react-bootstrap';
 import API from '../utils/API';
 
+
 function Result(props) {
-  const [inputObject, saveUserInput] = useState({});
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
+  const [inputObject, setInputObject] = useState({});
+
+  function handleInputChange(event) {
+    const { name, value } = event.target;
+    setInputObject({...inputObject, [name]: value})
+    console.log(name);
+  };
+
+  function handleInputSubmit(event) {
+    event.preventDefault();
+    if (inputObject) {
+      API.saveUserInput({
+        activity: inputObject.activity,
+      })
+        .then(res => console.log(res))
+        .catch(err => console.log(err));
+    }
+  };
+
+  
 
   return (
     <CSSTransitionGroup
@@ -26,13 +45,13 @@ function Result(props) {
         
         <br/>
         <br/>
-        <div> If you have something else in mind, let us know what it is here:
-          <Form onSubmit={saveUserInput}>
+        <div> If you have something else in mind, let us know what it is here: 
+          <Form onSubmit={handleInputSubmit}>
             <Form.Group id="userInput">
-              <Form.Control type="text"/>
+              <Form.Control type="text" onChange={handleInputChange} name="activity"/>
             </Form.Group>
-            <Button disabled={loading} className="w-100" type="submit">Submit</Button>
-          </Form>
+            <Button disabled={!(inputObject.activity)} className="w-100" type="submit">Submit</Button>
+          </Form>   
         </div>
         <div>
           <Link to="/" className="btn btn-primary w-100 mt-3">Back to Profile</Link>
