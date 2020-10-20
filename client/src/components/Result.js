@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { CSSTransitionGroup } from 'react-transition-group';
 import { Link } from 'react-router-dom';
-import { InputGroup, FormControl } from 'react-bootstrap';
+import { useAuth } from '../contexts/AuthContext';
+import { Form, Button } from 'react-bootstrap';
+import API from '../utils/API';
 
 function Result(props) {
+  const [inputObject, saveUserInput] = useState({});
+  const [loading, setLoading] = useState(false);
+
   return (
     <CSSTransitionGroup
       className="container result"
@@ -22,15 +27,12 @@ function Result(props) {
         <br/>
         <br/>
         <div> If you have something else in mind, let us know what it is here:
-          <InputGroup size="mb-3">
-            <FormControl
-              aria-label="Default"
-              aria-describedby="inputGroup-sizing-default"
-            />
-            <InputGroup.Append>
-              <InputGroup.Text id="inputGroup-sizing-default">Submit</InputGroup.Text>
-            </InputGroup.Append>
-          </InputGroup>
+          <Form onSubmit={saveUserInput}>
+            <Form.Group id="userInput">
+              <Form.Control type="text"/>
+            </Form.Group>
+            <Button disabled={loading} className="w-100" type="submit">Submit</Button>
+          </Form>
         </div>
         <div>
           <Link to="/" className="btn btn-primary w-100 mt-3">Back to Profile</Link>
