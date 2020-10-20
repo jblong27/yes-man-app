@@ -3,7 +3,7 @@ const activitiesSchema = mongoose.Schema;
 
 const activitiesSchema = new Schema({
   author: { type: String, required: true },
-  body: { type: String.trim(), required: true },
+  activity: { type: String.trim(), required: true },
   approved: { type: Boolean, default: false },
   class: { type: String, required: true },
   date: { type: Date, default: Date.now }
