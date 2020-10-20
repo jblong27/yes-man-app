@@ -18,10 +18,16 @@
   
 ## Demo
 ![Demo]()
-
   
 ## Usage
 Deployed on Heroku [here](https://yes-man-app.herokuapp.com/)
   
 ## License
 This project is covered under the MIT License, more information can be found [here](https://opensource.org/licenses/MIT).
+
+## Contributing
+Please contact before contributing
+ 
+## Questions 
+GitHub Profile: [jblong27](http://github.com/jblong27)
+Please email me at jblong27@gmail.com with additional questions.
