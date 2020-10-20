@@ -16,7 +16,7 @@ function Result(props) {
       transitionAppearTimeout={500}
       >  
         <div className="result">
-          Say Yes to:
+          Say Yes to: <strong>{props.questionnaireResult}</strong>
         </div>
         
         <br/>
