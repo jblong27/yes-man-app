@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 const userInputSchema = new Schema({
   author: { type: String, required: true },
-  activity: { type: String.trim(), required: true },
+  activity: { type: String, required: true },
   approved: { type: Boolean, default: false },
   class: { type: String, required: true },
   date: { type: Date, default: Date.now }

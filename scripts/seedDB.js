@@ -8,10 +8,7 @@ mongoose.connect(
   "mongodb://localhost/yes-man-app"
 );
 
-const activitySeed = [
-  ,
-  ,
-  ,
+const userInputSeed = [
   {
     author: "Jared Varnum",
     activity: "Stretch!",
@@ -756,9 +753,9 @@ const activitySeed = [
   }
 ];
 
-db.Activity
+db.userInput
   .remove({})
-  .then(() => db.Activity.collection.insertMany(activitySeed))
+  .then(() => db.userInput.collection.insertMany(userInputSeed))
   .then(data => {
     console.log(data.result.n + " records inserted!");
     process.exit(0);
