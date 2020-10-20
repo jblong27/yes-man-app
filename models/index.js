@@ -1,3 +1,3 @@
 module.exports = {
-    Activity: require("./activities")
+    userInput: require("./userinput")
   };

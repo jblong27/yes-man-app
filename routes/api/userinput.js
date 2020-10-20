@@ -5,7 +5,7 @@ router.route("/")
   .get(userInputController.findAll)
   .post(userInputController.create);
 
-// Matches with "/api/userInput/:id"
+// Matches with "/api/userinput/:id"
 router
   .route("/:id")
   .get(userInputController.findById)

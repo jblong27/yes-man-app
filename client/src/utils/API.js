@@ -11,8 +11,8 @@ export default {
     return axios.get("/api/userinput");
   },
 
-  saveUserInput: function(activity) {
-    return axios.post("/api/userinput" + activity);
+  saveUserInput: function() {
+    return axios.post("/api/userinput");
   }
   
 };
