@@ -117,10 +117,7 @@ renderQuestionnaire() {
 }
 
 renderResult() {
-  if (this.state.result === "fitness") {
-    console.log(this.state.answerOptions);
-    return <Result questionnaireResult={this.state.result} />;
-  }
+  return <Result questionnaireResult={this.state.result} />;
 }
 
 render() {

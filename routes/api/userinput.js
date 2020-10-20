@@ -1,15 +1,11 @@
-const router = require("express").Router();
-const userInputController = require("../../controllers/userInputController");
+const express = require("express");
+const router = express.Router();
+const userInput = require("../../models/userInput");
 
-router.route("/")
-  .get(userInputController.findAll)
-  .post(userInputController.create);
-
-// Matches with "/api/userinput/:id"
-router
-  .route("/:id")
-  .get(userInputController.findById)
-  .put(userInputController.update)
-  .delete(userInputController.remove);
+router.post('/', (req, res) => {
+  userInput.create(req.body)
+    .then((userinput) => res.json(userinput))
+    .catch(err => res.json(err))
+})
 
 module.exports = router;

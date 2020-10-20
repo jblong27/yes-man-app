@@ -20,7 +20,9 @@ function Result(props) {
     event.preventDefault();
     if (inputObject) {
       API.saveUserInput({
+        author: 'test',
         activity: inputObject.activity,
+        class: 'test'
       })
         .then(res => console.log(res))
         .catch(err => console.log(err));
@@ -50,7 +52,7 @@ function Result(props) {
             <Form.Group id="userInput">
               <Form.Control type="text" onChange={handleInputChange} name="activity"/>
             </Form.Group>
-            <Button disabled={!(inputObject.activity)} className="w-100" type="submit">Submit</Button>
+            <Button disabled={!(inputObject.activity)} onClick={handleInputSubmit} className="w-100" type="submit">Submit</Button>
           </Form>   
         </div>
         <div>
