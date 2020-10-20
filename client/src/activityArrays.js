@@ -732,7 +732,6 @@ const outsideSocialNoMoneyFitness = [
     date: new Date(Date.now())
   }
 ];
-
 const outsideSocialNoMoneyLearning = [
     {
     author: "Jared Varnum",
