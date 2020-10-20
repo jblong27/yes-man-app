@@ -17,8 +17,8 @@ function Result(props) {
       >  
         <div className="result">
           Say Yes to:
-
         </div>
+        
         <br/>
         <br/>
         <div> If you have something else in mind, let us know what it is here:
