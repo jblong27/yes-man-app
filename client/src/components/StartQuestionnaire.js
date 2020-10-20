@@ -88,9 +88,12 @@ getResults() {
   const answersCountValues = answersCountKeys.map(key => answersCount[key]);
   const maxAnswersCount = Math.max.apply(null, answersCountValues);
 
+  console.log(answersCountKeys);
+  console.log(answersCountValues);
+  console.log(maxAnswersCount);
   return answersCountKeys.filter(key => answersCount[key] === maxAnswersCount);
 }
-//
+
 setResults (result) {
   if (result.length === 1) {
     this.setState({ result: result[0] });
