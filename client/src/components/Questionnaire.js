@@ -29,7 +29,7 @@ function Questionnaire(props) {
       transitionAppear
       transitionAppearTimeout={500}
     >
-      <div className="quiz">
+      <div key={props.questionId}>
         <QuestionCount counter={props.questionId} total={props.questionTotal} />
         <Question content={props.question} />
         <ul className="answerOptions">

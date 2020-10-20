@@ -174,40 +174,40 @@ var questionnaireQuestions = [
       },
     ]
   },
-  {
-    question: "What would interest you most?",
-    answers: [
-      {
-        type: "fitness",
-        content: "Playing sports."
-      },
-      {
-        type: "learning",
-        content: "Solving puzzles."
-      },
-      {
-        type: "leisure",
-        content: "Taking shots."
-      },
-    ]
-  },
-  {
-    question: "Pick a number - any number!",
-    answers: [
-      {
-        type: "fitness",
-        content: "30"
-      },
-      {
-        type: "learning",
-        content: "42"
-      },
-      {
-        type: "leisure",
-        content: "420"
-      },
-    ]
-  },
+  // {
+  //   question: "What would interest you most?",
+  //   answers: [
+  //     {
+  //       type: "fitness",
+  //       content: "Playing sports."
+  //     },
+  //     {
+  //       type: "learning",
+  //       content: "Solving puzzles."
+  //     },
+  //     {
+  //       type: "leisure",
+  //       content: "Taking shots."
+  //     },
+  //   ]
+  // },
+  // {
+  //   question: "Pick a number - any number!",
+  //   answers: [
+  //     {
+  //       type: "fitness",
+  //       content: "30"
+  //     },
+  //     {
+  //       type: "learning",
+  //       content: "42"
+  //     },
+  //     {
+  //       type: "leisure",
+  //       content: "420"
+  //     },
+  //   ]
+  // },
 ];
 
 export default questionnaireQuestions;
