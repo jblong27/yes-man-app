@@ -88,6 +88,7 @@ getResults() {
   const answersCountValues = answersCountKeys.map(key => answersCount[key]);
   const maxAnswersCount = Math.max.apply(null, answersCountValues);
 
+  console.log({answersCountKeys, answersCountValues});
   console.log(answersCountKeys);
   console.log(answersCountValues);
   console.log(maxAnswersCount);
@@ -116,7 +117,10 @@ renderQuestionnaire() {
 }
 
 renderResult() {
-  return <Result questionnaireResult={this.state.result} />;
+  if (this.state.result === "fitness") {
+    console.log(this.state.answerOptions);
+    return <Result questionnaireResult={this.state.result} />;
+  }
 }
 
 render() {
