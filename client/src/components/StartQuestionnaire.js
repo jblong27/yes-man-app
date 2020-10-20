@@ -90,7 +90,7 @@ getResults() {
 
   return answersCountKeys.filter(key => answersCount[key] === maxAnswersCount);
 }
-
+//
 setResults (result) {
   if (result.length === 1) {
     this.setState({ result: result[0] });
