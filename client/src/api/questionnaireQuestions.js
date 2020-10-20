@@ -39,19 +39,19 @@ var questionnaireQuestions = [
     ]
   },
   {
-    question: "What kind of activity do you want?",
+    question: "Which quote do you connect with most?",
     answers: [
       {
         type: "fitness",
-        content: "Fitness!"
+        content: "The pain you feel today, will be the strength you feel tomorrow."
       },
       {
         type: "learning",
-        content: "Learning."
+        content: "The man who asks a question is a fool for a minute, the man who does not ask is a fool for life."
       },
       {
         type: "leisure",
-        content: "Leisure..."
+        content: "One tequila, two tequila, three tequila, floor."
       }
     ]
   },
