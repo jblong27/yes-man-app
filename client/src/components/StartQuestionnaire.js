@@ -66,7 +66,7 @@ class StartQuestionnaire extends Component {
       answer: answer
     }));
   }
-
+// this function is what moves the questionnaire on to the next question
   setNextQuestion() {
     const counter = this.state.counter + 1;
     const questionId = this.state.questionId + 1;
