@@ -20,7 +20,7 @@ If the user doesn’t think we got it right, we have an input box for them to le
 [Questions](#Questions)
   
 ## Demo
-![Demo]()
+![Demo](https://imgur.com/BBOX6e7)
   
 ## Usage
 Deployed on Heroku [here](https://yes-man-app.herokuapp.com/)
